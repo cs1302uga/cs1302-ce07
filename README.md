@@ -53,7 +53,7 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
    
-   For each Java file under the `cs1302-ce07` subdirectory, fill out a table similar to the following:
+   For each Java file under the `src` subdirectory, fill out a table similar to the following:
    
    | Name of the Java file | Interface or Implementing Class? | Fully Qualified Name (FQN) | Depends On |
    |-----------------------|----------------------------------|----------------------------|------------|
