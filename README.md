@@ -64,6 +64,7 @@ command depends on your present working directory), then please note that contex
 1. Make sure you are in the `cs1302-ce07` directory.
    Individually compile each `.java` file to `bin`. 
    Only specify the class path option when absolutely necessary.
+   You may need to create the `bin` directory if it does not already exist.
    Write down the commands that you used in the order that you used them.
    
 1. Create and document an additional class within the `cs1302.ce07` package that implements the `Drivable` 
@@ -77,7 +78,8 @@ command depends on your present working directory), then please note that contex
    Compile the class you added in the previous step. 
    Write down the commands that you used in the order you used them.
 
-1. Generate the API documentation website for all of the code in the `cs1302` package. 
+1. Generate the API documentation website for all of the code in the `cs1302` package
+   into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
    Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
