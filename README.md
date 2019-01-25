@@ -22,7 +22,7 @@ command depends on your present working directory), then please note that contex
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce07`:
 
    ```
-   $ git clone https://github.com/cs1302uga/cs1302-ce07.git
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce07.git
    ```
    
 1. **[ALL GROUP MEMBERS]**
@@ -118,6 +118,12 @@ Create new class that overrides the default method.
    Modify the string associated with the `-m` (message) option to give a brief, one sentence 
    description of the changes you made to the source code.
    What was the command you used to commit?
+
+1. Use Git to view your commit log:
+
+   ```
+   $ git log
+   ```
 
 **CHECKPOINT**
     
