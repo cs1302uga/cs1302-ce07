@@ -40,27 +40,37 @@ command depends on your present working directory), then please note that contex
    |-----------------------|---------------------------------|----------------------------|
    |-----------------------|---------------------------------|----------------------------|
    
-1. List the abstract methods found in the `Driveable` interface.
+1. Add another class that implements the interface. 
+
+1. Compile everything.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package. 
    Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
-1. Look at the `speedUp` method in the `Car.java` file. Compare the Javadoc comment for the
-   method in that file to the documentation listed for that method in the API documentation
-   website. What do you notice? How is this possible?
+1. Use Git to commit your source code changes to your local copy of the exercise repository.
 
 **CHECKPOINT**
+
+Add a `default` method to the interface.
 
 1.
 
 1. 
 
+1. Use Git to commit your source code changes to your local copy of the exercise repository.
+
 **CHECKPOINT**
 
+Create new class that overrides the default method.
+
 1. 
 
 1. 
+
+1. Use Git to commit your source code changes to your local copy of the exercise repository.
+
+1. Use Git to display the log... 
 
 **CHECKPOINT**
     
