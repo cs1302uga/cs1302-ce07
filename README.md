@@ -60,6 +60,9 @@ command depends on your present working directory), then please note that contex
    |-----------------------|----------------------------------|----------------------------|------------|
    |-----------------------|----------------------------------|----------------------------|------------|
    |-----------------------|----------------------------------|----------------------------|------------|
+
+   The "Depends On" column should list any Java types under the `cs1302.ce07` package that the file
+   is dependent upon. 
    
 1. Make sure you are in the `cs1302-ce07` directory.
    Individually compile each `.java` specifying `bin` as the default package location for compiled code.
@@ -67,8 +70,7 @@ command depends on your present working directory), then please note that contex
    You may need to create the `bin` directory if it does not already exist.
    Write down the commands that you used in the order that you used them.
    
-1. Create and document an additional class within the `cs1302.ce07` package that implements the `Drivab
-le` 
+1. Create and document an additional class within the `cs1302.ce07` package that implements the `Drivable` 
    interface. Feel free to reuse one of the classes you or one of your group members created in a previous
    class exercise. If you do resuse a class that you already wrote, then take special care to update its
    package information, make sure it's documented properly, and ensure that implements the version of the
