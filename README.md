@@ -1,4 +1,4 @@
-# ce07 TITLE TBD
+# ce07 Evolving an Interface
 
 This class exercise is designed to get you aquainted with TODO.
 
