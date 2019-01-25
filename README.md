@@ -1,12 +1,13 @@
 # ce07 Evolving an Interface
 
-This class exercise is designed to get you aquainted with TODO.
+This class exercise explores how to evolve an interface in Java without the need to
+modify all of implementing classes. It also touches on how to commit and view changes
+to a local Git repository.
 
 ## Prerequisite Knowledge
 
 * A basic understanding of creating and implementing interfaces in Java.
-* https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md
-* ANYTHING ELSE?
+* CSCI 1302 [Default Methods Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/default-methods.md)
 
 ## Questions
 
@@ -24,7 +25,7 @@ command depends on your present working directory), then please note that contex
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce07.git
    ```
-   
+
 1. **[ALL GROUP MEMBERS]**
    Setup your Git username and email on Nike by modifiying and executing the commands below. 
    When setting the `user.name` property, please provide your name as it appears on eLC and
