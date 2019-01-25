@@ -105,11 +105,11 @@ command depends on your present working directory), then please note that contex
    be supported. Your group should decide on reasonable names for the actual
    enumeration constants:
 
-   * Non-Commercial Roadway `Drivable`
-   * Commercial Roadway `Drivable`
-   * Watercraft `Drivable`
-   * Airway `Drivable`
-   * Unclassified `Drivable`
+   * Non-Commercial Roadway
+   * Commercial Roadway
+   * Watercraft
+   * Aircraft
+   * Unclassified
 
    Make sure to provide a Javadoc comment for the `enum` that describes the type
    itself as well as the constants that it enumerates.
