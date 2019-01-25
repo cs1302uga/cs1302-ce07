@@ -19,7 +19,7 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce06`:
+1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce07`:
 
    ```
    $ git clone https://github.com/cs1302uga/cs1302-ce07.git
