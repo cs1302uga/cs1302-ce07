@@ -81,8 +81,8 @@ command depends on your present working directory), then please note that contex
 1. Make sure you are in the `cs1302-ce07` directory.
    Use the following commands to tell Git to add and commit the changes that you made to your
    source code to your local copy of the repository for this exercise.
-   Modify the string associated with the `-m` option to give a brief, one sentence description
-   of the changes you made to the source code.
+   Modify the string associated with the `-m` (message) option to give a brief, one sentence 
+   description of the changes you made to the source code.
    
    ```
    $ git add src
@@ -98,6 +98,11 @@ Add a `default` method to the interface.
 1. 
 
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
+   Since you haven't added any new source code files for this checkpoint, you can skip the
+   `git add` step if, and only if, you add an additional `-a` option with `git commit`.
+   Modify the string associated with the `-m` (message) option to give a brief, one sentence 
+   description of the changes you made to the source code.
+   What was the command you used to commit?
 
 **CHECKPOINT**
 
@@ -108,8 +113,11 @@ Create new class that overrides the default method.
 1. 
 
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
-
-1. Use Git to display the log... 
+   Since you haven't added any new source code files for this checkpoint, you can skip the
+   `git add` step if, and only if, you add an additional `-a` option with `git commit`.
+   Modify the string associated with the `-m` (message) option to give a brief, one sentence 
+   description of the changes you made to the source code.
+   What was the command you used to commit?
 
 **CHECKPOINT**
     
