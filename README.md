@@ -32,17 +32,23 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
    
-   For each Java file in the `cs1302-ce07` subdirectory, fill out a table similar to the following:
+   For each Java file under the `cs1302-ce07` subdirectory, fill out a table similar to the following:
    
-   | Name of the Java file | Interface or Implementing Class | Fully Qualified Name (FQN) |
-   |-----------------------|---------------------------------|----------------------------|
-   |-----------------------|---------------------------------|----------------------------|
-   |-----------------------|---------------------------------|----------------------------|
-   |-----------------------|---------------------------------|----------------------------|
+   | Name of the Java file | Interface or Implementing Class? | Fully Qualified Name (FQN) | Depends On |
+   |-----------------------|----------------------------------|----------------------------|------------|
+   |-----------------------|----------------------------------|----------------------------|------------|
+   |-----------------------|----------------------------------|----------------------------|------------|
+   |-----------------------|----------------------------------|----------------------------|------------|
    
-1. Add another class that implements the interface. 
+1. Compile each `.java` file to `bin` individually. Only use the `-cp` option when absolutely necessary.
+   Write down the commands that you used in the order you used them.
+   
+1. Create and document an additional class within the `cs1302.ce07` package that implements the `Driveable` 
+   interface. Feel free to reuse one of the classes you or one of your group members created in a a previous
+   exercise. If you do resuse a class that you already wrote, then take care to update the `package`statement.
 
-1. Compile everything.
+1. Compile the `.java` file you added in the previous step. Only use the `-cp` option if absolutely 
+   necessary. Write down the commands that you used in the order you used them.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package. 
    Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link.
