@@ -65,10 +65,12 @@ command depends on your present working directory), then please note that contex
    Only specify the class path option when absolutely necessary.
    Write down the commands that you used in the order that you used them.
    
-1. Create and document an additional class within the `cs1302.ce07` package that implements the `Driveable` 
+1. Create and document an additional class within the `cs1302.ce07` package that implements the `Drivable` 
    interface. Feel free to reuse one of the classes you or one of your group members created in a previous
    class exercise. If you do resuse a class that you already wrote, then take special care to update its
-   package information and ensure it's documented properly.
+   package information, make sure it's documented properly, and ensure that implements the version of the
+   interface provided by this exercise. What is the fully qualified name of the class
+   that you added?
 
 1. Make sure you are in the `cs1302-ce07` directory.
    Compile the class you added in the previous step. 
@@ -86,16 +88,51 @@ command depends on your present working directory), then please note that contex
    
    ```
    $ git add src
-   $ git commit -m "added SomeClass that represents SOMETHING and implements Driveable."
+   $ git commit -m "added SomeClass that represents SOMETHING and implements Drivable."
    ```
 
 **CHECKPOINT**
 
-Add a `default` method to the interface.
+1. Add an `enum` called `LicenseClass` to the interface that represents different
+   license classifications for the people who drive the things that are
+   `Drivable`. Below is a list of license classification descriptions that must
+   be supported. Your group should decide on reasonable names for the actual
+   enumeration constants:
 
-1.
+   * Non-Commercial Roadway `Drivable`
+   * Commercial Roadway `Drivable`
+   * Watercraft `Drivable`
+   * Airway `Drivable`
+   * Unclassified `Drivable`
 
-1. 
+   Make sure to provide a Javadoc comment for the `enum` that describes the type
+   itself as well as the constants that it enumerates.
+
+1. Modify the `Drivable` interface to include a default method called `getLicenseClass`
+   that takes no parameters and returns a `Drivable.LicenseClass`. Among the enumeration
+   constants that your group included in `LicenseType`, pick one that you would consider
+   is a safe choice to use as a default value. Your default method should return that
+   constance.
+
+1. Fully document all aspects of the `getLicenseClass` method using a Javadoc comment.
+   Remember, most people will not see the inside of your method--they will only use it.
+   Be sure to consider this when writing your Javadoc comment.
+
+1. Update the `cs1302.ce07.Driver` class.
+
+   * Update the `test` method to print the return value of the `Drivable` object's
+     `getLicenseClass` method. Be sure to update the corresponding Javadoc
+     comment.
+
+   * Update the `main` method to create an object of the class you added for
+     the previous checkpoint and test it with the `test` method.
+
+   Recompile all code and test it by running `cs1302.ce07.Driver`.
+   Is the output what you expected?
+
+1. Regenerate the API documentation website for all of the code in the `cs1302` package.
+   What is the direct URL to the API documentation for the default  method that you wrote
+   for this checkpoint?
 
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
    Since you haven't added any new source code files for this checkpoint, you can skip the
@@ -108,9 +145,19 @@ Add a `default` method to the interface.
 
 Create new class that overrides the default method.
 
-1. 
+1. Create and document yet another additional class within the `cs1302.ce07` package that
+   implements the `Drivable` interface. In this class, provide an implementation of the
+   `getLicenseClass` method. What is the fully qualified name of the class
+   that you added?
 
-1. 
+1. Update the `main` method in the `cs1302.ce07.Driver` class to create an
+   object of the class you added in the previous step and test it with the
+   `test` method. Recompile all code and test it by running `cs1302.ce07.Driver`.
+   Is the output what you expected?
+
+1. Regenerate the API documentation website for all of the code in the `cs1302` package.
+   What is the direct URL to the API documentation for the class that you wrote
+   for this checkpoint?
 
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
    Since you haven't added any new source code files for this checkpoint, you can skip the

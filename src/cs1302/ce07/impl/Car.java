@@ -33,7 +33,7 @@ public class Car implements Drivable {
 	return success;
     } // speedUp
 
-    public boolean slowdown(double amount) {
+    public boolean slowDown(double amount) {
 	boolean success = false;
 	if(speed - amount >= 0) {
 	    speed -= amount;
