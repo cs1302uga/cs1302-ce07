@@ -125,7 +125,8 @@ command depends on your present working directory), then please note that contex
      comment.
 
    * Update the `main` method to create an object of the class you added for
-     the previous checkpoint and test it with the `test` method.
+     the previous checkpoint and test it with the `test` method. Please use `Drivable`
+     for the variable type so as to remain consistent with other objects.
 
    Recompile all code and test it by running `cs1302.ce07.Driver`.
    Is the output what you expected?
@@ -150,9 +151,25 @@ Create new class that overrides the default method.
    `getLicenseClass` method. What is the fully qualified name of the class
    that you added?
 
-1. Update the `main` method in the `cs1302.ce07.Driver` class to create an
-   object of the class you added in the previous step and test it with the
-   `test` method. Recompile all code and test it by running `cs1302.ce07.Driver`.
+1. Update the `main` method in the `cs1302.ce07.Driver` class:
+
+   * Instead of creating multiple `Drivable` variable, refactor the code to take
+     a single array of `Drivable` objects. Something like the following (may need
+     to be modified):
+
+     ```java
+     Drivable drivables = new Drivable[] {
+         new Car(185.5), // fast car
+	 new Car(75.0)   // slow car
+     };
+     ```
+
+   * Loop over the array, and call the `test` method twice one each array element with
+     different `speedupAmount` and `slowdownAmount` values.
+
+   * Add an object of the class you added in the previous step to the end of the array.
+
+   Recompile all code and test it by running `cs1302.ce07.Driver`.
    Is the output what you expected?
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package.
