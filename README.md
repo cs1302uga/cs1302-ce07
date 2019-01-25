@@ -144,12 +144,11 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-Create new class that overrides the default method.
-
 1. Create and document yet another additional class within the `cs1302.ce07` package that
    implements the `Drivable` interface. In this class, provide an implementation of the
-   `getLicenseClass` method. What is the fully qualified name of the class
-   that you added?
+   `getLicenseClass` method. It should return a license classification that differs from
+   the one returned by the default method in the interface.
+   What is the fully qualified name of the class that you added?
 
 1. Update the `main` method in the `cs1302.ce07.Driver` class:
 
