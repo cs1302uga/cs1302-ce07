@@ -159,7 +159,7 @@ command depends on your present working directory), then please note that contex
      ```java
      Drivable drivables = new Drivable[] {
          new Car(185.5), // fast car
-	 new Car(75.0)   // slow car
+         new Car(75.0)   // slow car
      };
      ```
 
