@@ -113,7 +113,7 @@ le`
    itself as well as the constants that it enumerates.
 
 1. Modify the `Drivable` interface to include a default method called `getLicenseClass`
-   that takes no parameters and returns a `Drivable.LicenseClass`. Among the enumeration
+   that takes no parameters and returns a `LicenseClass`. Among the enumeration
    constants that your group included in `LicenseType`, pick one that you would consider
    is a safe choice to use as a default value. Your default method should return that
    constance.
