@@ -99,9 +99,12 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-1. Add an `enum` called `LicenseClass` to the interface that represents different
+1. Add an `enum` called `LicenseClass` to the interface that represents the different
    license classifications for the people who drive the things that are
-   `Drivable`. Below is a list of license classification descriptions that must
+   `Drivable`. Each implementing class can set its license classification accordingly.
+   For example, an `Airplane` class would use the `Aircraft` specification since all
+   airplane operators need that specific classification on their license.
+   Below is a list of license classification descriptions that must
    be supported. Your group should decide on reasonable names for the actual
    enumeration constants:
 
