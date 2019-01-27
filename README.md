@@ -161,9 +161,9 @@ command depends on your present working directory), then please note that contex
 
 1. Update the `main` method in the `cs1302.ce07.Driver` class:
 
-   * Instead of creating multiple `Drivable` variable, refactor the code to take
-     a single array of `Drivable` objects. Something like the following (may need
-     to be modified):
+   * Instead of creating multiple `Drivable` variables in the `main` method, refactor 
+     the code to take a single array of `Drivable` objects. Something like the following 
+     (may need to be modified):
 
      ```java
      Drivable drivables = new Drivable[] {
@@ -197,6 +197,12 @@ command depends on your present working directory), then please note that contex
    $ git log
    ```
 
+1. For now, we are using the `git` commands to log your modifications to your code on your
+   local computer so that you (and the instructors/TAs) can see what you've done. There are 
+   many additional features of git that we will explore in future tutorials and exercises. 
+   These features include, but are not limited to, rolling back to an older version 
+   of the code, collaborating with teammates, and branching.
+   
 **CHECKPOINT**
     
 <hr/>
