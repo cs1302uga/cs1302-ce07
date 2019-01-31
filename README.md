@@ -228,13 +228,19 @@ command depends on your present working directory), then please note that contex
 1. Let its input from another program using a pipe:
 
    ```
-   $ find src -name "*.java" | figlet -w 100   
+   $ find src -name "*.java" | figlet -w 100 -f larry3d
    ```
 
 1. Read the manual page:
 
    ```
    $ man figlet
+   ```
+   
+1. You can see the list of available fonts using the following command:
+
+   ```
+   $ showfigfonts
    ```
 
 **NOT A CHECKPOINT**
