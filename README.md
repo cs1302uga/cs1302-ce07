@@ -61,7 +61,7 @@ command depends on your present working directory), then please note that contex
    |-----------------------|----------------------------------|----------------------------|------------|
    |-----------------------|----------------------------------|----------------------------|------------|
 
-   The "Depends On" column should list any Java types under the `cs1302.ce07` package that the file
+   The "Depends On" column should list any Java types in the `cs1302.ce07` package that the file
    is dependent upon. 
    
 1. Make sure you are in the `cs1302-ce07` directory.
@@ -79,7 +79,7 @@ command depends on your present working directory), then please note that contex
 
 1. Make sure you are in the `cs1302-ce07` directory.
    Compile the class you added in the previous step. 
-   Write down the commands that you used in the order you used them.
+   Write down any commands that you used in the order you used them.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
@@ -196,6 +196,12 @@ command depends on your present working directory), then please note that contex
    ```
    $ git log
    ```
+   
+   For more concise output, use the following:
+   
+   ```
+   $ git log --graph --oneline --all
+   ```
 
 1. For now, we are using the `git` commands to log your modifications to your code on your
    local computer so that you (and the instructors/TAs) can see what you've done. There are 
@@ -205,6 +211,34 @@ command depends on your present working directory), then please note that contex
    
 **CHECKPOINT**
     
+1. If you want to create beautiful ASCII text, then try the FIGlet tool:
+
+   ```
+   $ figlet hello!
+   ```
+   
+1. The FIGlet tool also reads from standard input!
+
+   ```
+   $ figlet
+   ```
+   
+   Just as with `cat`, use `C-d` to send the `EOF`.
+   
+1. Let its input from another program using a pipe:
+
+   ```
+   $ find src -name "*.java" | figlet -w 100   
+   ```
+
+1. Read the manual page:
+
+   ```
+   $ man figlet
+   ```
+
+**NOT A CHECKPOINT**
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
