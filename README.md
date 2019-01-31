@@ -225,7 +225,7 @@ command depends on your present working directory), then please note that contex
    
    Just as with `cat`, use `C-d` to send the `EOF`.
    
-1. Let its input from another program using a pipe:
+1. Let its standard input come from another program using a pipe:
 
    ```
    $ find src -name "*.java" | figlet -w 100 -f larry3d
