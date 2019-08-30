@@ -9,6 +9,14 @@ to a local Git repository.
 * A basic understanding of creating and implementing interfaces in Java.
 * CSCI 1302 [Default Methods Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/default-methods.md)
 
+## Course-Specific Learning Outcomes - FINISH UPDATING!
+
+* **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+* **L04.b:** Utilize interface-based polymorphism in a software solution.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
@@ -53,7 +61,12 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
    
-   For each Java file under the `src` subdirectory, fill out a table similar to the following:
+   For each Java file under the `src` subdirectory, fill out a row in a table similar to the 
+   following in your notes:
+
+   **Note:** If a class is not an interface and does not implement an interface, write `NA` in the second
+   column. Also, the "Depends On" column should list any Java types in the `cs1302.ce07` package that the file
+   is dependent upon. 
    
    | Name of the Java file | Interface or Implementing Class? | Fully Qualified Name (FQN) | Depends On |
    |-----------------------|----------------------------------|----------------------------|------------|
@@ -70,7 +83,7 @@ command depends on your present working directory), then please note that contex
    You may need to create the `bin` directory if it does not already exist.
    Write down the commands that you used in the order that you used them.
    
-1. Create and document an additional class within the `cs1302.ce07` package that implements the `Drivable` 
+1. Create and document an additional class within the `cs1302.ce07.impl` package that implements the `Drivable` 
    interface. Feel free to reuse one of the classes you or one of your group members created in a previous
    class exercise. If you do resuse a class that you already wrote, then take special care to update its
    package information, make sure it's documented properly, and ensure that implements the version of the
@@ -87,8 +100,14 @@ command depends on your present working directory), then please note that contex
    What is the URL to your hosted website?
    
 1. Make sure you are in the `cs1302-ce07` directory.
+   In this step, you will do your first commit to your local git repository (on the Nike server) so 
+   that you (and the instructors/TAs) can see what you've done. For now, think of a commit as saving 
+   a snapshot of your progress in the exercise. We will use many additional features of git in future
+   tutorials and exercises. These features include, but are not limited to, creating multiple development 
+   branches, rolling back to a previous snapshot (version of the code), and collaborating with teammates.
+   
    Use the following commands to tell Git to add and commit the changes that you made to your
-   source code to your local copy of the repository for this exercise.
+   source code to your local copy of the repository for this exercise. 
    Modify the string associated with the `-m` (message) option to give a brief, one sentence 
    description of the changes you made to the source code.
    
@@ -202,12 +221,6 @@ command depends on your present working directory), then please note that contex
    ```
    $ git log --graph --oneline --all
    ```
-
-1. For now, we are using the `git` commands to log your modifications to your code on your
-   local computer so that you (and the instructors/TAs) can see what you've done. There are 
-   many additional features of git that we will explore in future tutorials and exercises. 
-   These features include, but are not limited to, rolling back to an older version 
-   of the code, collaborating with teammates, and branching.
    
 **CHECKPOINT**
     
