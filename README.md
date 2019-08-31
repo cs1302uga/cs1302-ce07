@@ -9,7 +9,7 @@ to a local Git repository.
 * A basic understanding of creating and implementing interfaces in Java.
 * CSCI 1302 [Default Methods Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/default-methods.md)
 
-## Course-Specific Learning Outcomes - FINISH UPDATING!
+## Course-Specific Learning Outcomes
 
 * **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
 * **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
