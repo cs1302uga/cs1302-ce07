@@ -140,12 +140,19 @@ command depends on your present working directory), then please note that contex
    that takes no parameters and returns a `LicenseClass`. Among the enumeration
    constants that your group included in `LicenseClass`, pick one that you would consider
    is a safe choice to use as a default value. Your default method should return that
-   constant.
+   constant. Remember, you are providing a default implementation. At this point, you
+   don't have a specific object and you don't know the class of the object. You are
+   simply providing a default implementation so the other classes that implement `Drivable`
+   don't _have_ to change in order to compile.
 
 1. Fully document all aspects of the `getLicenseClass` method using a Javadoc comment.
    Remember, most people will not see the inside of your method--they will only use it.
-   Be sure to consider this when writing your Javadoc comment.
+   Be sure to consider this when writing your Javadoc comment. 
 
+1. Compile your interface and update the documentation website. Look at the `Car` class documentation
+   on the website. Compare the `getLicenseClass` method with the `speedUp` method. What do
+   you notice? Briefly explain the difference in your notes.
+   
 1. Update the `cs1302.ce07.Driver` class.
 
    * Update the `test` method to print the return value of the `Drivable` object's
@@ -157,7 +164,8 @@ command depends on your present working directory), then please note that contex
      for the variable type so as to remain consistent with other objects.
 
    Recompile all code and test it by running `cs1302.ce07.Driver`.
-   Is the output what you expected?
+   Write the license class for each `Drivable` object that was output (they should be the same)
+   in your notes.
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package.
    What is the direct URL to the API documentation for the default  method that you wrote
