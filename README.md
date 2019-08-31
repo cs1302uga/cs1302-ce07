@@ -180,11 +180,9 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-1. Create and document yet another additional class within the `cs1302.ce07` package that
-   implements the `Drivable` interface. In this class, provide an implementation of the
+1. In the new class that you added to the `cs1302.ce07` package, provide an implementation of the
    `getLicenseClass` method. It should return a license classification that differs from
    the one returned by the default method in the interface.
-   What is the fully qualified name of the class that you added?
 
 1. Update the `main` method in the `cs1302.ce07.Driver` class:
 
@@ -202,10 +200,8 @@ command depends on your present working directory), then please note that contex
    * Loop over the array, and call the `test` method twice one each array element with
      different `speedupAmount` and `slowdownAmount` values.
 
-   * Add an object of the class you added in the previous step to the end of the array.
-
    Recompile all code and test it by running `cs1302.ce07.Driver`.
-   Is the output what you expected?
+   What is the license class in the class you added earlier?
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package.
    What is the direct URL to the API documentation for the class that you wrote
