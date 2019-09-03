@@ -1,5 +1,7 @@
 # ce07 Evolving an Interface
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 This class exercise explores how to evolve an interface in Java without the need to
 modify all of implementing classes. It also touches on how to commit and view changes
 to a local Git repository.
