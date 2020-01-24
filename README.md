@@ -1,5 +1,6 @@
 # ce07 Evolving an Interface
 
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 This class exercise explores how to evolve an interface in Java without the need to
@@ -122,7 +123,10 @@ command depends on your present working directory), then please note that contex
 
 1. Add an `enum` called `LicenseClass` to the interface that represents the different
    license classifications for the people who drive the things that are
-   `Drivable`. Each implementing class can set its license classification accordingly.
+   `Drivable`. You may find it helpful to review the example from the default methods
+   tutorial in 
+   [`Styleable.java`](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/src/cs1302/interfaces/contract/Styleable.java). Each implementing class can 
+   set its license classification accordingly.
    For example, an `Airplane` class would use the `Aircraft` specification since all
    airplane operators need that specific classification on their license.
    Below is a list of license classification descriptions that must
