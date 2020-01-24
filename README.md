@@ -211,7 +211,7 @@ command depends on your present working directory), then please note that contex
      };
      ```
 
-   * Loop over the array, and call the `test` method twice one each array element with
+   * Loop over the array, and call the `test` method twice on each array element with
      different `speedupAmount` and `slowdownAmount` values.
 
    Recompile all code and test it by running `cs1302.ce07.Driver`.
@@ -219,7 +219,8 @@ command depends on your present working directory), then please note that contex
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package.
    What is the direct URL to the API documentation for the class that you wrote
-   for this checkpoint?
+   for this checkpoint? Look at the `getLicenseClass` method in the documentation for
+   the class you added. What do you notice now that you overrode the default method?
 
 1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
    message in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and 
