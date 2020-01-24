@@ -102,6 +102,10 @@ command depends on your present working directory), then please note that contex
    Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
+1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
+   message in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and 
+   repeat until no style errors remain.
+   
 1. Make sure you are in the `cs1302-ce07` directory.
    In this step, you will do your first commit to your local git repository (on the Nike server) so 
    that you (and the instructors/TAs) can see what you've done. For now, think of a commit as saving 
@@ -177,6 +181,10 @@ command depends on your present working directory), then please note that contex
    What is the direct URL to the API documentation for the default  method that you wrote
    for this checkpoint?
 
+1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
+   message in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and 
+   repeat until no style errors remain.
+   
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
    Since you haven't added any new source code files for this checkpoint, you can skip the
    `git add` step if, and only if, you add an additional `-a` option with `git commit`.
@@ -213,6 +221,10 @@ command depends on your present working directory), then please note that contex
    What is the direct URL to the API documentation for the class that you wrote
    for this checkpoint?
 
+1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
+   message in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and 
+   repeat until no style errors remain.
+   
 1. Use Git to commit your source code changes to your local copy of the exercise repository.
    Since you haven't added any new source code files for this checkpoint, you can skip the
    `git add` step if, and only if, you add an additional `-a` option with `git commit`.
