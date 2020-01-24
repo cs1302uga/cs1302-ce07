@@ -125,7 +125,7 @@ command depends on your present working directory), then please note that contex
    license classifications for the people who drive the things that are
    `Drivable`. You may find it helpful to review the example from the default methods
    tutorial in 
-   [`Styleable.java`](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/src/cs1302/interfaces/contract/Styleable.java). Each implementing class can 
+   [`Styleable.java`](https://github.com/cs1302uga/cs1302-tutorials/blob/master/default-methods/src/cs1302/interfaces/contract/Styleable.java#L23). Each implementing class can 
    set its license classification accordingly.
    For example, an `Airplane` class would use the `Aircraft` specification since all
    airplane operators need that specific classification on their license.
