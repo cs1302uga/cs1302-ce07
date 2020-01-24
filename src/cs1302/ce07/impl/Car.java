@@ -18,28 +18,34 @@ public class Car implements Drivable {
      * @param maxSpeed the maximum speed of the {@code Car}
      */
     public Car(double maxSpeed) {
-	speed = 0;
-	if(maxSpeed >= 0) {
-	    this.maxSpeed = maxSpeed;
-	} // if
+        speed = 0;
+        if (maxSpeed >= 0) {
+            this.maxSpeed = maxSpeed;
+        } // if
     } //Car
 
+    /**
+     * {@inheritDoc}
+     */
     public boolean speedUp(double amount) {
-	boolean success = false;
-	if(speed + amount <= maxSpeed) {
-	    speed += amount;
-	    success = true;
-	} // if
-	return success;
+        boolean success = false;
+        if (speed + amount <= maxSpeed) {
+            speed += amount;
+            success = true;
+        } // if
+        return success;
     } // speedUp
 
+    /**
+     * {@inheritDoc}
+     */
     public boolean slowDown(double amount) {
-	boolean success = false;
-	if(speed - amount >= 0) {
-	    speed -= amount;
-	    success = true;
-	}
-	return success;
+        boolean success = false;
+        if(speed - amount >= 0) {
+            speed -= amount;
+            success = true;
+        }
+        return success;
     } // slowDown
 
     /**
@@ -49,6 +55,6 @@ public class Car implements Drivable {
      * @return the {@code String} representation of this object.
      */
     public String toString() {
-	return String.format("Car(speed: %.2f, maxspeed: %.2f)", speed, maxSpeed);
+        return String.format("Car(speed: %.2f, maxspeed: %.2f)", speed, maxSpeed);
     }
 } // Car
