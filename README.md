@@ -2,6 +2,8 @@
 
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
+![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
+
 This class exercise explores how to evolve an interface in Java without the need to
 modify all of implementing classes. It also touches on how to commit and view changes
 to a local Git repository.
