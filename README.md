@@ -241,7 +241,7 @@ command depends on your present working directory), then please note that contex
    For more concise output, use the following:
    
    ```
-   $ git log --graph --oneline --all
+   $ git log --all --decorate --oneline --graph
    ```
    
 **CHECKPOINT**
