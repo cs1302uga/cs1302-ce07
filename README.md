@@ -1,7 +1,6 @@
 # ce07 Evolving an Interface
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
-![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This class exercise explores how to evolve an interface in Java without the need to
 modify all of implementing classes. It also touches on how to commit and view changes
@@ -23,22 +22,24 @@ set of requirements.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce07`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce07`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce07.git
    ```
 
 1. **[ALL GROUP MEMBERS]**
-   Setup your Git username and email on Nike by modifiying and executing the commands below. 
+   Setup your Git username and email on Odin by modifiying and executing the commands below. 
    When setting the `user.name` property, please provide your name as it appears on eLC and
    Athena. If you have a preferred name, then you may include it in parentheses. For the
    `user.email` property, please use your `@uga.edu` email address:
@@ -99,7 +100,7 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce07-doc` as the name for your symbolic link.
+   Host the documentation on Odin using `cs1302-ce07-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
 1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
@@ -107,7 +108,7 @@ command depends on your present working directory), then please note that contex
    repeat until no style errors remain.
    
 1. Make sure you are in the `cs1302-ce07` directory.
-   In this step, you will do your first commit to your local git repository (on the Nike server) so 
+   In this step, you will do your first commit to your local git repository (on the Odin server) so 
    that you (and the instructors/TAs) can see what you've done. For now, think of a commit as saving 
    a snapshot of your progress in the exercise. We will use many additional features of git in future
    tutorials and exercises. These features include, but are not limited to, creating multiple development 
@@ -123,7 +124,13 @@ command depends on your present working directory), then please note that contex
    $ git commit -m "added SomeClass that represents SOMETHING and implements Drivable."
    ```
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Add an `enum` called `LicenseClass` to the interface that represents the different
    license classifications for the people who drive the things that are
@@ -192,7 +199,13 @@ command depends on your present working directory), then please note that contex
    description of the changes you made to the source code.
    What was the command you used to commit?
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
 
 1. In the new class that you added to the `cs1302.ce07` package, provide an implementation of the
    `getLicenseClass` method. It should return a license classification that differs from
@@ -245,8 +258,57 @@ command depends on your present working directory), then please note that contex
    $ git log --all --decorate --oneline --graph
    ```
    
-**CHECKPOINT**
-    
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce07`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce06`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce07 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
+
+<hr/>
+
+**Bonus Fun:**
+
 1. If you want to create beautiful ASCII text, then try the FIGlet tool:
 
    ```
