@@ -284,7 +284,7 @@ command depends on your present working directory), then please note that contex
    3. https://webwork.cs.uga.edu/~user/cs1302-ce07-doc
    ```
 
-1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce06`). If you would like
+1. Change directories to the parent of `cs1302-ce07` (e.g., `cd ..` from `cs1302-ce07`). If you would like
    to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
    We won't repeat those steps here and you can view them as optional.
    
