@@ -307,44 +307,6 @@ command depends on your present working directory), then please note that contex
 
 <hr/>
 
-**Bonus Fun:**
-
-1. If you want to create beautiful ASCII text, then try the FIGlet tool:
-
-   ```
-   $ figlet hello!
-   ```
-   
-1. The FIGlet tool also reads from standard input!
-
-   ```
-   $ figlet
-   ```
-   
-   Just as with `cat`, use `C-d` to send the `EOF`.
-   
-1. Let its standard input come from another program using a pipe:
-
-   ```
-   $ find src -name "*.java" | figlet -w 100 -f slant
-   ```
-
-1. Read the manual page:
-
-   ```
-   $ man figlet
-   ```
-   
-1. You can see the list of available fonts using the following command:
-
-   ```
-   $ showfigfonts
-   ```
-
-**NOT A CHECKPOINT**
-
-<hr/>
-
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 <small>
