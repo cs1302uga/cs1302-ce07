@@ -24,9 +24,6 @@ public class Car implements Drivable {
         } // if
     } //Car
 
-    /**
-     * {@inheritDoc}
-     */
     public boolean speedUp(double amount) {
         boolean success = false;
         if (speed + amount <= maxSpeed) {
@@ -36,9 +33,6 @@ public class Car implements Drivable {
         return success;
     } // speedUp
 
-    /**
-     * {@inheritDoc}
-     */
     public boolean slowDown(double amount) {
         boolean success = false;
         if(speed - amount >= 0) {
